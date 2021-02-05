@@ -1,0 +1,80 @@
+body {
+  font-family: American Typewriter, serif;
+  width: 100%;
+  padding-top: 250px;
+}
+
+section {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+#header-img {
+  width: 300px;
+}
+
+#buy-online {
+  background-color: #99ccff;
+}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+body {
+  background-color: lightblue;
+}
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container > div {
+  width: 200px;
+  text-align: center;
+  line-height: 400px;
+  text-align: center;
+  font-size: 14px;
+  background-color: #99ddff;
+}
+
+.nav-link {
+  margin: 50px;
+  padding: 20px;
+}
+
+.center {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0;
+  background-color: #99ddff;
+  color: white;
+  font-family: 'Exo 2', sans-serif;
+  padding: 1em;
+}
